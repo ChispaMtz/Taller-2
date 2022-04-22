@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+body{
+    background: #FFFFFF;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;
+
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+
+}
+
+h3{
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h3 a { color:black;}
+ a { color: black;}
+
+ h1{
+     margin-top: 100px;
+     text-align: center;
+     font-size: 60px;
+     line-height: 70px;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+
+
+ label.toggle, [id^=drop]{
+     display: none;
+
+     
+ }
+
+ nav{
+     margin: 0;
+     padding: 0;
+     background-color: #000000;
+     overflow: hidden;
+     
+ }
+
+ #logo{
+     display: block;
+     padding: 0 30px;
+     float: left;
+     line-height: 60px;
+     font-size: 60px;
+
+
+
+ }
+
+ nav ul {
+float: right;
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+
+ }
+
+ nav ul li {
+     margin: 0 1em;
+     display: inline-block;
+     float: left;
+     background-color: #000000;
+     color: black;
+
+     
+
+
+ }
+
+
+ nav a {
+     display: block;
+     padding: 0 20 px;
+     color: #fff;
+     font-size: 20px;
+     line-height: 60px;
+     text-decoration: none;
+     
+
+
+ }
+
+
+ nav a:hover{
+     background-color: #000000;
+ }
+
+
+@media all and (max-width : 1068px){
+
+    nav { margin: 0 ;}
+
+    #logo{
+        display: inline-block;
+        padding: 0 0 0 20px;
+        text-align: left;
+    }
+
+
+    nav ul li{
+        display: block;
+        width: 100%;
+        border-top: 1px solid white;
+
+
+    }
+
+    label.toggle {
+        display: block;
+        background-color: #252525;
+        padding:  0 20px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        position: static;
+        float: right;
+        margin: auto;
+
+    }
+
+
+    label.icono{
+        background-color: rgb(0, 0, 0, 0.3);
+        display: inline-block;
+        float: right;
+    }
+
+    .toggle:hover { background-color: #000000;}
+
+    .menu{
+        display: none;
+
+    }
+
+    [id^=drop] :checked + ul{
+        display: contents;
+        width: 100%;
+    }
+
+  #www .conteni{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wraps;
+
+  }
+
+  #www section{
+      margin: 5px;
+  }
+  
+  #www img{
+      width: 100px;
+      max-width: 180px;
+  }
+
+
+  
+}
+
+section.cajas{
+    float: left;
+    color: black;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+
+  section.cajas1{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 10px;
+    float: right;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+  
+  section.cajas2{
+  
+      float: center;
+      color: black;
+      width: 400px;
+      height: 450px;
+      border-radius: 10px;
+      border: 1px solid black;
+      margin: auto;
+      text-align: center;
+  }
+
+  .pepe{
+      color: black;
+  }
+
+   .fut{
+    width: 300px;
+    height: 200px;
+
+}
+
+ .pepe2{
+      color: black;
+      text-align: center;
+  }
+
+
+  table{
+    margin: auto;
+    border: 1px dashed #000;
+    border-collapse: collapse;
+    color: black;
+    width: 60vw;
+  }
+  
+ td{
+  
+    position: flex;
+    width: 15%;
+    padding: 7px 3px;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  th{
+    position: flex;
+    width: 15%;
+    padding: 7px 3px;
+    border: 1px solid #000;
+    background-color: azure;
+
+  }
+    
+  .marce{
+
+    color: black;
+    margin-left: 80px;
+  }
+
+  .holi{
+    display: flex;
+    color: black;
+    content: center;
+    text-align: center;
+    margin-left: 250px;
+}
+
+fieldset{
+    padding: 0;
+    text-align: center;
+}
+  
+.foo{
+    float: right;
+}
+  
